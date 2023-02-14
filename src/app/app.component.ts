@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import "@mux/mux-player";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'mux-test';
+  playbackId = "FuJSYrK0014ec2LPnm11bzC2MAySAQPqA";
 }
